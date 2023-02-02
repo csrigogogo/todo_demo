@@ -164,6 +164,13 @@ function onHashChange() {
   </section>
 </template>
 
-<style>
+<style scoped>
 @import "https://unpkg.com/todomvc-app-css@2.4.1/index.css";
+
+:global(body) {
+  margin: 0;
+}
+:global(#app) {
+  width: 100vw;
+}
 </style>
