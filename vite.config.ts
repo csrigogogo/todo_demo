@@ -28,7 +28,7 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  build: {
-    outDir: "../test_mogenius/front_dist",
-  },
+  //   build: {
+  //     outDir: "../test_mogenius/front_dist",
+  //   },
 });

@@ -21,7 +21,6 @@ declare module '@vue/runtime-core' {
     AModal: typeof import('@arco-design/web-vue')['Modal']
     AOption: typeof import('@arco-design/web-vue')['Option']
     ASelect: typeof import('@arco-design/web-vue')['Select']
-    ASelectOption: typeof import('@arco-design/web-vue')['SelectOption']
     ASpace: typeof import('@arco-design/web-vue')['Space']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
@@ -31,6 +30,5 @@ declare module '@vue/runtime-core' {
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
-    Wrapper: typeof import('./src/components/Wrapper.vue')['default']
   }
 }
